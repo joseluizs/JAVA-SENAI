@@ -16,10 +16,8 @@ public class ConverterMoedas {
         double valorDolar = valorReais / cotacaoDolar;
 
         System.out.println("O valor em dólar é: $" + valorDolar);
-        
+
         sc.close();
-
-    }
-
+    }
 
 }
