@@ -13,8 +13,9 @@ public class SomarTresArgumentos {
     }
 
     public static int somarTresNumeros(int a, int b, int c) {
-        return a + b + c;
-    }
+        return a + b + c;
+    }
+
 
 
 }
