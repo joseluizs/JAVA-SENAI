@@ -30,8 +30,9 @@ public class Program {
 			
 		} while (Character.toLowerCase(opcao) == 's');
 		
+		System.out.println("Pessoas cadastradas");
 		for (Pessoa p : pessoas) {
-			System.out.println(p);
+			System.out.println(p + "\n");
 		}
 		
 		sc.close();
