@@ -3,9 +3,10 @@ package entities;
 public class Pessoa {
 	
 	private String nome;
-	private Integer idade, telefone;
+	private Integer idade;
+	private String telefone;
 	
-	public Pessoa(String nome, Integer idade, Integer telefone) {
+	public Pessoa(String nome, Integer idade, String telefone) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
@@ -28,11 +29,11 @@ public class Pessoa {
 		this.idade = idade;
 	}
 
-	public Integer getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
 
-	public void setTelefone(Integer telefone) {
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
 
